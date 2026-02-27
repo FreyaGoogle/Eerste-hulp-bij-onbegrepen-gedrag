@@ -110,7 +110,7 @@ export default function Home() {
             >
               <span className="mt-1 text-3xl">🚨</span>
               <div>
-                <h2 className="text-lg font-bold text-red-800 dark:text-red-300">Nu acuut</h2>
+                <h2 className="text-lg font-bold text-red-800 dark:text-red-300">Nu accuut</h2>
                 <p className="mt-0.5 text-sm text-red-600 dark:text-red-400">
                   Directe veiligheidscheck en de-escalatiestappen
                 </p>
