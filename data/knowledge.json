@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prikkelverwerking",
+    "titel": "Prikkelverwerking bij dementie",
+    "icon": "🧠",
+    "tekst": "Bij dementie raakt het filtermechanisme voor prikkels beschadigd. Wat voor anderen normaal is — een televisie op de achtergrond, meerdere gesprekken tegelijk, felle verlichting — kan voor iemand met dementie overweldigend zijn. Het brein kan de prikkels niet meer goed ordenen en selecteren.\n\nDit verklaart waarom onrust, roepen of agressie vaak optreedt in drukke situaties (mealtijd, activiteiten, verschoning). Prikkelreductie is dan de eerste stap: minder geluid, minder mensen, rustiger tempo, kortere zinnen."
+  },
+  {
+    "id": "validation",
+    "titel": "Validatie: aansluiten op gevoel",
+    "icon": "💬",
+    "tekst": "Validatie betekent: het gevoel van de persoon erkennen, zonder de inhoud te corrigeren. Als iemand denkt dat haar moeder nog leeft en naar haar zoekt, is het gevoel (gemis, verlangen naar veiligheid) reëel — ook al klopt de inhoud feitelijk niet.\n\nCorrecties werken averechts: ze leiden tot verdriet, frustratie en verlies van vertrouwen. Aansluiten op het gevoel ('Ik hoor dat u haar mist') geeft rust en verbinding.\n\nValidatie is geen leugen — het is erkenning van de emotionele werkelijkheid."
+  },
+  {
+    "id": "omgevingsfactoren",
+    "titel": "Omgeving en gedrag",
+    "icon": "🏠",
+    "tekst": "De omgeving heeft grote invloed op gedrag bij dementie. Factoren die gedrag kunnen beïnvloeden:\n\n• Licht: te fel of te weinig licht vergroot desoriëntatie en angst.\n• Geluid: onverwacht geluid (alarm, tv, menigte) is een veelvoorkomende trigger.\n• Ruimte: gangen zonder duidelijke oriëntatiepunten vergroten de kans op dwalen.\n• Vertrouwdheid: eigen spullen, vaste plekken en vaste gezichten geven veiligheid.\n• Dag-nachtritme: voldoende daglicht overdag ondersteunt een gezond slaappatroon."
+  },
+  {
+    "id": "autonomie",
+    "titel": "Autonomie en eigen regie",
+    "icon": "🙋",
+    "tekst": "Ook mensen met vergevorderde dementie hebben een diep gevoel van eigenwaarde en de behoefte aan controle over hun eigen lichaam en leven. Verzet bij zorgmomenten is vaak geen 'probleemgedrag' maar een logische reactie op het gevoel van machteloosheid.\n\nTips:\n• Geef echte keuzes, ook kleine: 'Eerst uw rechterarm of uw linkerarm?'\n• Kondig handelingen aan: 'Ik ga nu uw gezicht wassen.'\n• Werk in het tempo van de persoon, niet in uw eigen tempo.\n• Stop als het verzet groot is. Probeer het later opnieuw of wissel van collega."
+  },
+  {
+    "id": "triggers",
+    "titel": "Veelvoorkomende triggers",
+    "icon": "⚡",
+    "tekst": "Gedrag bij dementie heeft altijd een oorzaak. Veelvoorkomende triggers:\n\n• Pijn of lichamelijk ongemak (ook zonder dat iemand het kan zeggen)\n• Overprikkeling door drukke omgeving\n• Onbekend gezicht of nieuwe omgeving\n• Verandering in routine of dagindeling\n• Honger, dorst of toiletbehoefte\n• Verdriet of gemis (ook voor mensen die al lang geleden gestorven zijn)\n• Miscommunicatie: niet begrijpen wat er wordt gevraagd\n• Verlies van gevoel van controle\n• Slaaptekort of omgekeerd dag-nachtritme"
+  },
+  {
+    "id": "interventies",
+    "titel": "Snelle interventies op een rij",
+    "icon": "✅",
+    "tekst": "Bij elk onbegrepen gedrag:\n\n1. Stop — adem uit — beoordeel de veiligheid.\n2. Verlaag uw stem en uw tempo.\n3. Ga op gelijke hoogte (zit als de persoon zit).\n4. Benoem wat u ziet: 'Ik zie dat u ergens mee zit.'\n5. Check basisbehoeften: pijn? Toilet? Dorst? Overprikkeld?\n6. Bied een keuze of geef ruimte.\n7. Gebruik een vertrouwd element (muziek, foto, voorwerp).\n8. Vraag collegiale ondersteuning als het niet lukt — schaam u daar niet voor."
+  }
+]

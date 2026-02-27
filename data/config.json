@@ -1,0 +1,14 @@
+{
+  "_uitleg": "Pas dit bestand aan zonder code te wijzigen. Vul organisatienaam, telefoonnummers en protocollen in.",
+  "organisatieNaam": "Uw organisatie",
+  "noodProtocol": {
+    "stap1": "Roep direct een collega erbij",
+    "stap2": "Bel de verpleegkundige: [nummer invullen]",
+    "stap3": "Bel de (dienstdoende) arts: [nummer invullen]",
+    "stap4": "Volg het crisisprotocol: [naam of locatie invullen]",
+    "stap5": "Bel BHV indien nodig: [nummer invullen]"
+  },
+  "extraProtocolUrl": "",
+  "extraProtocolLabel": "",
+  "toonAnoniemeFoutmeldingen": false
+}

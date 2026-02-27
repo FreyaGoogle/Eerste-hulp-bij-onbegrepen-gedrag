@@ -1,0 +1,17 @@
+[
+  { "id": "onrust_ijsberen",    "label": "Onrust / ijsberen",              "icon": "🚶", "acuutRisk": false },
+  { "id": "roepen_boos",        "label": "Roepen / boos",                  "icon": "😠", "acuutRisk": false },
+  { "id": "angstig",            "label": "Angstig / schrikkerig",          "icon": "😨", "acuutRisk": false },
+  { "id": "apathisch",          "label": "Apathisch / teruggetrokken",     "icon": "😶", "acuutRisk": false },
+  { "id": "verzet_zorg",        "label": "Verzet bij zorgmoment",          "icon": "🙅", "acuutRisk": false },
+  { "id": "nachtelijke_onrust", "label": "Nachtelijke onrust",             "icon": "🌙", "acuutRisk": false },
+  { "id": "huilen_verdriet",    "label": "Huilen / verdriet",              "icon": "😢", "acuutRisk": false },
+  { "id": "achterdocht_wanen",  "label": "Achterdocht / wanen",            "icon": "🔍", "acuutRisk": false },
+  { "id": "claimend",           "label": "Claimend / vraaggedrag",         "icon": "🔔", "acuutRisk": false },
+  { "id": "seksueel_ontremd",   "label": "Seksueel ontremd gedrag",        "icon": "⚠️", "acuutRisk": false },
+  { "id": "eet_drinkprobleem",  "label": "Eet- of drinkprobleem",          "icon": "🥤", "acuutRisk": false },
+  { "id": "wegloopneiging",     "label": "Wegloopneiging / deur zoeken",   "icon": "🚪", "acuutRisk": false },
+  { "id": "pijnsignalen",       "label": "Onbegrepen pijnsignalen",        "icon": "😣", "acuutRisk": false },
+  { "id": "fysiek_agressief",   "label": "Fysiek agressief (slaat / bijt)","icon": "🚨", "acuutRisk": true  },
+  { "id": "zelfbeschadiging",   "label": "Zelfbeschadiging / suïcidale uitingen", "icon": "🚨", "acuutRisk": true }
+]

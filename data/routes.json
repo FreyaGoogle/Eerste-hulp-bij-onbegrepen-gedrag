@@ -1,0 +1,232 @@
+[
+  {
+    "id": "pijn",
+    "label": "Pijn of ongemak",
+    "icon": "🤕",
+    "kleur": "red",
+    "kortUitleg": "Pijn uit zich bij dementie vaak indirect: onrust, roepen, verzet of veranderde gezichtsuitdrukking. Denk ook aan tandpijn, obstipatie, blaasontsteking of slechtzittende kleding.",
+    "canPastBij": "Dit kan passen bij pijn of lichamelijk ongemak.",
+    "acties": [
+      "Check op tekenen van pijn: gespannen gezicht, kreunen, beschermende lichaamshouding. Gebruik indien beschikbaar de PAINAD- of PACSLAC-score.",
+      "Verwijder mogelijk ongemak: controleer houding, kleding, temperatuur en toiletbehoefte.",
+      "Consulteer verpleegkundige of arts als pijn waarschijnlijk is. Wacht niet af."
+    ],
+    "zinnen": [
+      "\"Ik zie dat u ergens moeite mee heeft. Ik blijf even bij u.\"",
+      "\"Doet er iets pijn? Laat maar zien, dan kijk ik met u mee.\"",
+      "\"We gaan even rustig zitten. Ik ga goed voor u zorgen.\""
+    ],
+    "valkuilen": [
+      "Pijn bagatelliseren of negeren omdat iemand het niet (meer) kan verwoorden.",
+      "Doorgaan met een zorgmoment terwijl pijn waarschijnlijk is."
+    ],
+    "observatieSuggestie": "Gezichtsuitdrukking gespannen, lichaamstaal gespannen of beschermend, kreunt bij beweging of aanraking. Moment: [tijdstip]. Locatie pijn (indien bekend): [invullen]."
+  },
+  {
+    "id": "overprikkeling",
+    "label": "Overprikkeling",
+    "icon": "🌊",
+    "kleur": "orange",
+    "kortUitleg": "Te veel prikkels (geluid, mensen, licht, handelingen tegelijk) overvragen het verwerkingsvermogen. Reactie: onrust, roepen, vluchten, agressie.",
+    "canPastBij": "Dit kan passen bij overprikkeling door omgeving of situatie.",
+    "acties": [
+      "Verminder prikkels: dim licht, verlaag geluid (tv/radio uit), beperk het aantal mensen in de ruimte.",
+      "Spreek rustig, langzaam en met korte zinnen. Eén ding tegelijk.",
+      "Bied een rustige plek of eigen kamer aan. Loop mee, stel geen vragen."
+    ],
+    "zinnen": [
+      "\"Het is hier wat druk. Zullen we een rustiger plekje zoeken?\"",
+      "\"Ik ga even naast u zitten. U hoeft niks te doen.\"",
+      "\"We doen het rustig aan, stap voor stap.\""
+    ],
+    "valkuilen": [
+      "Veel vragen achter elkaar stellen of uitleggen wat er gaat gebeuren in lange zinnen.",
+      "Vasthouden aan het geplande zorgmoment terwijl onrust toeneemt."
+    ],
+    "observatieSuggestie": "Onrust nam toe bij [situatie/omgeving]. Prikkels aanwezig: [geluid/mensen/licht]. Rustiger na [actie]."
+  },
+  {
+    "id": "onderprikkeling",
+    "label": "Onderprikkeling / gebrek aan doel",
+    "icon": "😶",
+    "kleur": "blue",
+    "kortUitleg": "Te weinig zinvolle prikkels of activiteiten leidt tot onrust, vraaggedrag, dwalen of apathie. De persoon zoekt betekenis of verbinding.",
+    "canPastBij": "Dit kan passen bij onderprikkeling of gebrek aan zinvolle activiteit.",
+    "acties": [
+      "Bied een zinvolle, eenvoudige activiteit aan die past bij de achtergrond: iets vouwen, iets sorteren, muziek, een foto bekijken.",
+      "Maak even persoonlijk contact: kijk aan, raak aan (indien welkom), benoem iets positiefs.",
+      "Ga een korte wandeling doen of ga samen naar de huiskamer."
+    ],
+    "zinnen": [
+      "\"Ik ben blij dat ik even bij u ben. Zullen we samen iets doen?\"",
+      "\"Kunt u mij helpen met [kleine taak]? Dat zou fijn zijn.\"",
+      "\"Ik heb hier een mooie foto meegebracht. Herkent u dit?\""
+    ],
+    "valkuilen": [
+      "Aanbod te ingewikkeld of te snel wisselen van activiteit.",
+      "De persoon alleen laten zitten zonder aansluiting te bieden."
+    ],
+    "observatieSuggestie": "Gedrag nam toe in periode zonder activiteit. Positieve reactie op [contact/activiteit]."
+  },
+  {
+    "id": "angst",
+    "label": "Angst of onveilig gevoel",
+    "icon": "😨",
+    "kleur": "purple",
+    "kortUitleg": "Verlies van grip op de werkelijkheid, verlies van vertrouwde mensen of omgeving, onbegrepen situaties — dit alles kan angst geven. Angst bij dementie is reëel en verdient erkenning.",
+    "canPastBij": "Dit kan passen bij angst of een gevoel van onveiligheid.",
+    "acties": [
+      "Ga op gelijke hoogte zitten, maak rustig oogcontact. Beweeg niet snel.",
+      "Benoem het gevoel zonder te corrigeren: 'Ik zie dat u ergens bang voor bent.'",
+      "Zorg voor een vertrouwd gezicht of voorwerp. Bied fysieke nabijheid aan (hand, schouder) als dat welkom is."
+    ],
+    "zinnen": [
+      "\"Ik zie dat u ergens bang voor bent. Ik ben bij u, u bent veilig.\"",
+      "\"U hoeft niet alleen te zijn. Ik blijf even bij u.\"",
+      "\"Dit is een veilige plek. Ik laat u niet alleen.\""
+    ],
+    "valkuilen": [
+      "Zeggen dat de angst onterecht is of corrigeren ('er is niks aan de hand').",
+      "Te snel handelen of bewegen — dit versterkt het gevoel van onveiligheid."
+    ],
+    "observatieSuggestie": "Tekenen van angst: [omschrijving gedrag]. Situatie: [omschrijving]. Gekalmeerd na [actie]."
+  },
+  {
+    "id": "communicatie",
+    "label": "Onbegrip / communicatieproblemen",
+    "icon": "💬",
+    "kleur": "teal",
+    "kortUitleg": "Taal- en begripsproblemen leiden tot frustratie, boosheid of terugtrekken. De boodschap komt niet aan, of de persoon kan zijn behoefte niet uitdrukken.",
+    "canPastBij": "Dit kan passen bij communicatiemoeilijkheden of onbegrip.",
+    "acties": [
+      "Gebruik korte, eenvoudige zinnen. Stel één vraag tegelijk. Geef verwerkingstijd (minimaal 5-10 seconden).",
+      "Gebruik non-verbale communicatie: toon wat u bedoelt, gebruik gebaren, houd oogcontact.",
+      "Probeer te begrijpen wát de persoon wil zeggen, ook als de woorden niet kloppen."
+    ],
+    "zinnen": [
+      "\"Ik luister. Vertel maar, ik begrijp u.\"",
+      "\"Laat maar zien wat u bedoelt.\"",
+      "\"Ik zie dat u iets wilt. Laten we samen uitzoeken wat.\""
+    ],
+    "valkuilen": [
+      "Zinnen herhalen op dezelfde manier als er geen reactie komt.",
+      "Discussiëren over de inhoud van wat iemand zegt."
+    ],
+    "observatieSuggestie": "Communicatieproblemen: [omschrijving]. Makkelijker contact na [aanpassing]."
+  },
+  {
+    "id": "autonomie",
+    "label": "Autonomieverlies / verzet",
+    "icon": "🙅",
+    "kleur": "amber",
+    "kortUitleg": "Gedwongen worden tot iets zonder uitleg of keuzevrijheid roept weerstand op. Ieder mens wil regie over het eigen lichaam en leven — ook met dementie.",
+    "canPastBij": "Dit kan passen bij verlies van regie of autonomiegevoelens.",
+    "acties": [
+      "Bied een echte keuze aan: niet 'we gaan douchen' maar 'wilt u nu douchen of liever over een kwartier?'",
+      "Deel de handeling op in kleine stappen. Doe er één tegelijk, wacht op akkoord.",
+      "Overweeg een collega te wisselen — soms helpt een ander gezicht."
+    ],
+    "zinnen": [
+      "\"U bepaalt. Zullen we dit samen doen of wilt u het zelf proberen?\"",
+      "\"We doen het in uw tempo. Zegt u maar wanneer ik verder mag.\"",
+      "\"Ik leg uit wat ik ga doen, dan weet u wat u kunt verwachten.\""
+    ],
+    "valkuilen": [
+      "Doorzetten terwijl iemand duidelijk 'nee' communiceert (verbaal of non-verbaal).",
+      "Meerdere handelingen tegelijk of snel achter elkaar."
+    ],
+    "observatieSuggestie": "Verzet bij [zorgmoment/handeling]. Minder weerstand na [aanpassing, bijv. keuze geven / collega wisselen]."
+  },
+  {
+    "id": "rouw",
+    "label": "Rouw of herinneringen",
+    "icon": "🕊️",
+    "kleur": "indigo",
+    "kortUitleg": "Verlies van dierbaren, van het vroegere leven, van de eigen identiteit. Verdriet en gemis zijn reëel — ook als de tijdsoriëntatie niet klopt.",
+    "canPastBij": "Dit kan passen bij rouw, verlies of pijnlijke herinneringen.",
+    "acties": [
+      "Erken het gevoel zonder te corrigeren op tijd of feiten: 'Ik hoor dat u haar mist.'",
+      "Sluit aan op de emotie, niet op de inhoud. Valideer het verdriet.",
+      "Gebruik herinneringen positief: foto's, muziek, een vertrouwd voorwerp."
+    ],
+    "zinnen": [
+      "\"Ik hoor dat u hem/haar mist. Dat is verdrietig.\"",
+      "\"Vertelt u maar over hem/haar. Ik luister graag.\"",
+      "\"U zoekt iemand die u dierbaar is. Ik blijf bij u.\""
+    ],
+    "valkuilen": [
+      "Corrigeren: 'Maar hij is al jaren geleden gestorven.'",
+      "Het verdriet snel proberen weg te praten of afleiden voor het gevoel erkend is."
+    ],
+    "observatieSuggestie": "Uitingen van gemis of rouw rond [tijdstip/situatie]. Reactie op herinnering: [positief/neutraal/negatief]."
+  },
+  {
+    "id": "slaap",
+    "label": "Slaap- of ritmeprobleem",
+    "icon": "🌙",
+    "kleur": "slate",
+    "kortUitleg": "Verstoord dag-nachtritme, onvoldoende slaap of omgekeerd slaappatroon veroorzaken overdag onrust, verwardheid of nachtelijke agitatie.",
+    "canPastBij": "Dit kan passen bij een verstoord slaap- of dagritme.",
+    "acties": [
+      "Breng structuur aan in de dag: vaste tijden voor eten, activiteit en rust.",
+      "Bied overdag voldoende licht en beweging. Beperk dutjes na 15:00 uur.",
+      "Bespreek met verpleegkundige of arts of slaappatroon gemeten of begeleid kan worden."
+    ],
+    "zinnen": [
+      "\"Het is nog vroeg/laat. Zullen we even rustig gaan zitten?\"",
+      "\"U hoeft nu niks. Laten we even samen de nacht doorkomen.\"",
+      "\"Ik ben hier. U kunt gerust zijn.\""
+    ],
+    "valkuilen": [
+      "Iemand die 's nachts actief is dwingen terug naar bed zonder eerst gerust te stellen.",
+      "Overdag te weinig prikkels waardoor nachtelijke onrust toeneemt."
+    ],
+    "observatieSuggestie": "Nachtelijk gedrag om [tijdstip]: [omschrijving]. Dagslaap: [wel/niet]. Reactie op [interventie]."
+  },
+  {
+    "id": "lichamelijk",
+    "label": "Lichamelijke oorzaak",
+    "icon": "🌡️",
+    "kleur": "green",
+    "kortUitleg": "Dorst, honger, koorts, blaasontsteking, obstipatie, warmte, koude — lichamelijke ongemakken uiten zich bij dementie snel als gedragsverandering.",
+    "canPastBij": "Dit kan passen bij een lichamelijke oorzaak (temperatuur, vocht, infectie, medicatie).",
+    "acties": [
+      "Check basisbehoeften: bied drinken aan, vraag naar toiletbehoefte, controleer temperatuur.",
+      "Let op koorts, veranderde urinelucht, verstopping of andere lichamelijke signalen.",
+      "Raadpleeg verpleegkundige bij vermoeden van infectie of medicatie-effect."
+    ],
+    "zinnen": [
+      "\"Heeft u trek of dorst? Ik haal even iets voor u.\"",
+      "\"Wilt u naar de wc? Laten we dat eerst proberen.\"",
+      "\"U ziet er warm uit. Zal ik de raam opendoen?\""
+    ],
+    "valkuilen": [
+      "Gedragsverandering alleen psychologisch verklaren zonder lichamelijke oorzaken uit te sluiten.",
+      "Vochttekort niet opmerken omdat iemand niet zelf om drinken vraagt."
+    ],
+    "observatieSuggestie": "Gedragsverandering mogelijk na [medicatiewijziging/infectie/vochttekort]. Temperatuur/kleur: [invullen]. Actie ondernomen: [invullen]."
+  },
+  {
+    "id": "omgeving",
+    "label": "Omgevingswissel of nieuw gezicht",
+    "icon": "🏠",
+    "kleur": "rose",
+    "kortUitleg": "Een nieuwe omgeving, onbekend gezicht, verandering van kamer of routine kan desoriëntatie en angst veroorzaken. Vertrouwdheid is een basisbehoefte.",
+    "canPastBij": "Dit kan passen bij desoriëntatie door omgevingsverandering.",
+    "acties": [
+      "Introduceer uzelf rustig en herhaal uw naam als dat nodig is. Verwacht niet dat de persoon u herkent.",
+      "Breng vertrouwde elementen in beeld: foto's, eigen spullen, vaste stoelplaats.",
+      "Vertel kort en rustig waar de persoon is en wat er gaat gebeuren — zonder te overbelasten."
+    ],
+    "zinnen": [
+      "\"Mijn naam is [naam]. Ik werk hier en ik help u vandaag.\"",
+      "\"Dit is uw kamer. U bent hier veilig.\"",
+      "\"U zoekt iets vertrouwds. Zullen we samen uw spullen opzoeken?\""
+    ],
+    "valkuilen": [
+      "Aannemen dat iemand u herkent of de situatie begrijpt.",
+      "Te veel nieuwe informatie in één keer geven."
+    ],
+    "observatieSuggestie": "Desoriëntatie na [omgevingswissel/nieuw gezicht]. Rustiger na [vertrouwde prikkel/uitleg]."
+  }
+]
