@@ -125,10 +125,10 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
           <div key={i} className="flex flex-1 flex-col items-center gap-1">
             <div
               className={`h-2 w-full rounded-full transition-colors ${
-                i <= step ? "bg-blue-600 dark:bg-blue-400" : "bg-gray-200 dark:bg-gray-700"
+                i <= step ? "bg-dv-navy dark:bg-dv-gold" : "bg-gray-200 dark:bg-gray-700"
               }`}
             />
-            <span className={`text-xs ${i === step ? "font-semibold text-blue-600 dark:text-blue-400" : "text-gray-400"}`}>
+            <span className={`text-xs ${i === step ? "font-semibold text-dv-navy dark:text-dv-gold" : "text-gray-400"}`}>
               {label}
             </span>
           </div>
@@ -153,7 +153,7 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                         ? "border-red-500 bg-red-50 text-red-700 dark:bg-red-900/30 dark:text-red-300"
                         : "border-red-200 text-red-600 hover:border-red-400 dark:border-red-800 dark:text-red-400"
                       : selected
-                      ? "border-blue-500 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
+                      ? "border-dv-navy bg-dv-gold-light/30 text-dv-navy dark:bg-dv-navy/30 dark:text-dv-gold"
                       : "border-gray-200 text-gray-700 hover:border-blue-300 dark:border-gray-700 dark:text-gray-300"
                   }`}
                 >
@@ -178,8 +178,8 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                   onClick={() => setContext((c) => ({ ...c, tijdstip: c.tijdstip === t.id ? null : t.id }))}
                   className={`flex flex-col items-center gap-1 rounded-xl border-2 py-3 text-xs font-medium transition-all ${
                     context.tijdstip === t.id
-                      ? "border-blue-500 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
-                      : "border-gray-200 text-gray-600 hover:border-blue-300 dark:border-gray-700 dark:text-gray-400"
+                      ? "border-dv-navy bg-dv-gold-light/30 text-dv-navy dark:bg-dv-navy/30 dark:text-dv-gold"
+                      : "border-gray-200 text-gray-600 hover:border-dv-gold dark:border-gray-700 dark:text-gray-400"
                   }`}
                 >
                   <span className="text-xl">{t.icon}</span>
@@ -198,8 +198,8 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                   onClick={() => setContext((c) => ({ ...c, locatie: c.locatie === l.id ? null : l.id }))}
                   className={`flex items-center gap-2 rounded-xl border-2 px-3 py-2 text-sm font-medium transition-all ${
                     context.locatie === l.id
-                      ? "border-blue-500 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
-                      : "border-gray-200 text-gray-600 hover:border-blue-300 dark:border-gray-700 dark:text-gray-400"
+                      ? "border-dv-navy bg-dv-gold-light/30 text-dv-navy dark:bg-dv-navy/30 dark:text-dv-gold"
+                      : "border-gray-200 text-gray-600 hover:border-dv-gold dark:border-gray-700 dark:text-gray-400"
                   }`}
                 >
                   <span className="text-lg">{l.icon}</span> {l.label}
@@ -217,8 +217,8 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                   onClick={() => setContext((c) => ({ ...c, metWie: c.metWie === m.id ? null : m.id }))}
                   className={`flex flex-col items-center gap-1 rounded-xl border-2 px-2 py-3 text-xs font-medium transition-all ${
                     context.metWie === m.id
-                      ? "border-blue-500 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
-                      : "border-gray-200 text-gray-600 hover:border-blue-300 dark:border-gray-700 dark:text-gray-400"
+                      ? "border-dv-navy bg-dv-gold-light/30 text-dv-navy dark:bg-dv-navy/30 dark:text-dv-gold"
+                      : "border-gray-200 text-gray-600 hover:border-dv-gold dark:border-gray-700 dark:text-gray-400"
                   }`}
                 >
                   <span className="text-xl">{m.icon}</span>
@@ -237,8 +237,8 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                   onClick={() => toggleVerandering(v.id)}
                   className={`rounded-full border-2 px-3 py-1 text-sm font-medium transition-all ${
                     context.veranderingen.includes(v.id)
-                      ? "border-blue-500 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
-                      : "border-gray-200 text-gray-600 hover:border-blue-300 dark:border-gray-700 dark:text-gray-400"
+                      ? "border-dv-navy bg-dv-gold-light/30 text-dv-navy dark:bg-dv-navy/30 dark:text-dv-gold"
+                      : "border-gray-200 text-gray-600 hover:border-dv-gold dark:border-gray-700 dark:text-gray-400"
                   }`}
                 >
                   {v.label}
@@ -262,7 +262,7 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                 key={key}
                 className={`flex cursor-pointer items-center gap-3 rounded-xl border-2 px-4 py-3 transition-all ${
                   checks[key]
-                    ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20"
+                    ? "border-dv-navy bg-dv-gold-light/30 dark:bg-dv-navy/20"
                     : "border-gray-200 hover:border-gray-300 dark:border-gray-700"
                 }`}
               >
@@ -270,9 +270,9 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
                   type="checkbox"
                   checked={checks[key]}
                   onChange={() => toggleCheck(key)}
-                  className="h-5 w-5 rounded accent-blue-600"
+                  className="h-5 w-5 rounded accent-dv-navy"
                 />
-                <span className={`text-sm font-medium ${checks[key] ? "text-blue-700 dark:text-blue-300" : "text-gray-700 dark:text-gray-300"}`}>
+                <span className={`text-sm font-medium ${checks[key] ? "text-dv-navy dark:text-dv-gold" : "text-gray-700 dark:text-gray-300"}`}>
                   {CHECK_LABELS[key]}
                 </span>
               </label>
@@ -286,7 +286,7 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
         {step > 0 && (
           <button
             onClick={() => setStep((s) => s - 1)}
-            className="flex-1 rounded-xl border-2 border-gray-300 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="flex-1 rounded-xl border-2 border-dv-gold-light py-3 text-sm font-semibold text-dv-navy transition hover:bg-dv-cream dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
           >
             ← Terug
           </button>
@@ -294,7 +294,7 @@ export default function Wizard({ behaviors, onComplete, onAcuut }: Props) {
         <button
           onClick={handleNext}
           disabled={!canProceed}
-          className="flex-1 rounded-xl bg-blue-600 py-3 text-sm font-bold text-white transition hover:bg-blue-700 disabled:opacity-40"
+          className="flex-1 rounded-xl bg-dv-navy py-3 text-sm font-bold text-white transition hover:bg-dv-navy-dark disabled:opacity-40"
         >
           {step < 2 ? "Volgende →" : "Bekijk analyse"}
         </button>

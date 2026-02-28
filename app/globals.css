@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+  --color-dv-navy: #1E2745;
+  --color-dv-navy-dark: #151c33;
+  --color-dv-gold: #D0BB91;
+  --color-dv-gold-light: #E0CAA9;
+  --color-dv-cream: #F5F2EC;
+}
+
+body {
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  background-color: #F5F2EC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-lora), Georgia, serif;
+}
+
+*:focus-visible {
+  outline: 2px solid #4393FF;
+  outline-offset: 2px;
+}

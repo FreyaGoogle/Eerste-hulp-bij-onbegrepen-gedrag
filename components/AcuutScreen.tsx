@@ -76,7 +76,7 @@ export default function AcuutScreen({ config, onBack }: Props) {
             "\"U hoeft niks te doen. Ik luister.\"",
             "\"Ik zie dat u ergens heel boos/bang over bent. Dat begrijp ik.\"",
           ].map((zin, i) => (
-            <div key={i} className="rounded-lg bg-blue-50 px-3 py-2 text-sm italic text-blue-800 dark:bg-blue-900/20 dark:text-blue-300">
+            <div key={i} className="rounded-lg bg-dv-gold-light/30 px-3 py-2 text-sm italic text-dv-navy dark:bg-dv-navy/20 dark:text-dv-gold">
               {zin}
             </div>
           ))}
@@ -85,7 +85,7 @@ export default function AcuutScreen({ config, onBack }: Props) {
 
       <button
         onClick={onBack}
-        className="w-full rounded-xl border-2 border-gray-300 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+        className="w-full rounded-xl border-2 border-dv-gold-light py-3 text-sm font-semibold text-dv-navy transition hover:bg-dv-cream dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
       >
         ← Terug naar begin
       </button>

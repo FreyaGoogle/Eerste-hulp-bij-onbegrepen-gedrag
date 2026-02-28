@@ -164,7 +164,7 @@ export default function StepPlan({ onBack }: { onBack: () => void }) {
                 <h4 className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">Zinnen</h4>
                 <div className="mb-4 flex flex-col gap-1.5">
                   {stap.zinnen.map((z, i) => (
-                    <div key={i} className="rounded-lg bg-blue-50 px-3 py-2 text-sm italic text-blue-800 dark:bg-blue-900/20 dark:text-blue-300">
+                    <div key={i} className="rounded-lg bg-dv-gold-light/30 px-3 py-2 text-sm italic text-dv-navy dark:bg-dv-navy/20 dark:text-dv-gold">
                       {z}
                     </div>
                   ))}
@@ -188,7 +188,7 @@ export default function StepPlan({ onBack }: { onBack: () => void }) {
 
       <button
         onClick={onBack}
-        className="mt-2 w-full rounded-xl border-2 border-gray-300 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+        className="mt-2 w-full rounded-xl border-2 border-dv-gold-light py-3 text-sm font-semibold text-dv-navy transition hover:bg-dv-cream dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
       >
         ← Terug
       </button>

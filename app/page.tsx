@@ -51,20 +51,20 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className="min-h-screen bg-dv-cream dark:bg-gray-950">
       {/* Veiligheidsbanner overlay */}
       {showSafetyBanner && (
         <SafetyBanner config={config} onClose={() => setShowSafetyBanner(false)} />
       )}
 
       {/* Header */}
-      <header className="sticky top-0 z-40 border-b border-gray-200 bg-white/90 backdrop-blur dark:border-gray-800 dark:bg-gray-950/90">
+      <header className="sticky top-0 z-40 border-b border-dv-gold-light bg-white/95 backdrop-blur dark:border-gray-800 dark:bg-gray-950/90">
         <div className="mx-auto flex max-w-lg items-center justify-between px-4 py-3">
           <div>
-            <h1 className="text-sm font-bold text-gray-900 dark:text-white leading-tight">
-              🧠 Eerste Hulp bij
+            <h1 className="text-sm font-bold text-dv-navy dark:text-white leading-tight">
+              Eerste Hulp bij
             </h1>
-            <h1 className="text-sm font-bold text-gray-900 dark:text-white leading-tight">
+            <h1 className="text-sm font-bold text-dv-navy dark:text-white leading-tight">
               Onbegrepen Gedrag
             </h1>
           </div>
@@ -72,15 +72,15 @@ export default function Home() {
             {screen !== "home" && (
               <button
                 onClick={handleReset}
-                className="rounded-full border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-600 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400"
+                className="rounded-full border border-dv-gold-light px-3 py-1 text-xs font-semibold text-dv-navy hover:bg-dv-cream dark:border-gray-700 dark:text-gray-400"
                 title="Alles wissen"
               >
-                🔄 Reset
+                ↺ Reset
               </button>
             )}
             <button
               onClick={() => setDarkMode((d) => !d)}
-              className="rounded-full border border-gray-200 p-2 text-sm hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800"
+              className="rounded-full border border-dv-gold-light p-2 text-sm hover:bg-dv-cream dark:border-gray-700 dark:hover:bg-gray-800"
               title="Donker/licht modus"
             >
               {darkMode ? "☀️" : "🌙"}
@@ -95,7 +95,7 @@ export default function Home() {
         {screen === "home" && (
           <div className="flex flex-col gap-4">
             <div className="mb-2">
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm font-semibold text-dv-navy dark:text-gray-400">
                 {config.organisatieNaam !== "Uw organisatie" ? config.organisatieNaam : ""}
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
@@ -120,12 +120,12 @@ export default function Home() {
             {/* Begrijpen */}
             <button
               onClick={() => setScreen("wizard")}
-              className="flex items-start gap-4 rounded-2xl border-2 border-blue-200 bg-blue-50 p-5 text-left transition hover:border-blue-400 hover:bg-blue-100 dark:border-blue-900 dark:bg-blue-900/20 dark:hover:bg-blue-900/30"
+              className="flex items-start gap-4 rounded-2xl border-2 border-dv-gold bg-dv-gold-light/20 p-5 text-left transition hover:border-dv-navy hover:bg-dv-gold-light/40 dark:border-blue-900 dark:bg-blue-900/20 dark:hover:bg-blue-900/30"
             >
               <span className="mt-1 text-3xl">🔍</span>
               <div>
-                <h2 className="text-lg font-bold text-blue-800 dark:text-blue-300">Ik wil begrijpen wat er speelt</h2>
-                <p className="mt-0.5 text-sm text-blue-600 dark:text-blue-400">
+                <h2 className="text-lg font-bold text-dv-navy dark:text-blue-300">Ik wil begrijpen wat er speelt</h2>
+                <p className="mt-0.5 text-sm text-dv-navy/70 dark:text-blue-400">
                   Triage-analyse: gedrag → verklaringsroutes → aanpak
                 </p>
               </div>
@@ -134,12 +134,12 @@ export default function Home() {
             {/* Stappenplan */}
             <button
               onClick={() => setScreen("stappenplan")}
-              className="flex items-start gap-4 rounded-2xl border-2 border-green-200 bg-green-50 p-5 text-left transition hover:border-green-400 hover:bg-green-100 dark:border-green-900 dark:bg-green-900/20 dark:hover:bg-green-900/30"
+              className="flex items-start gap-4 rounded-2xl border-2 border-dv-gold bg-dv-gold-light/20 p-5 text-left transition hover:border-dv-navy hover:bg-dv-gold-light/40 dark:border-green-900 dark:bg-green-900/20 dark:hover:bg-green-900/30"
             >
               <span className="mt-1 text-3xl">📋</span>
               <div>
-                <h2 className="text-lg font-bold text-green-800 dark:text-green-300">Stappenplan begeleiding</h2>
-                <p className="mt-0.5 text-sm text-green-600 dark:text-green-400">
+                <h2 className="text-lg font-bold text-dv-navy dark:text-green-300">Stappenplan begeleiding</h2>
+                <p className="mt-0.5 text-sm text-dv-navy/70 dark:text-green-400">
                   5 stappen: rust → aansluiten → prikkelregie → actie → evaluatie
                 </p>
               </div>
@@ -148,11 +148,11 @@ export default function Home() {
             {/* Kennisbank */}
             <button
               onClick={() => setScreen("kennisbank")}
-              className="flex items-start gap-4 rounded-2xl border-2 border-gray-200 bg-white p-5 text-left transition hover:border-gray-300 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"
+              className="flex items-start gap-4 rounded-2xl border-2 border-dv-gold-light bg-white p-5 text-left transition hover:border-dv-gold hover:bg-dv-cream dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"
             >
               <span className="mt-1 text-3xl">📚</span>
               <div>
-                <h2 className="text-lg font-bold text-gray-800 dark:text-gray-200">Kennisbank</h2>
+                <h2 className="text-lg font-bold text-dv-navy dark:text-gray-200">Kennisbank</h2>
                 <p className="mt-0.5 text-sm text-gray-500 dark:text-gray-400">
                   Achtergrondinformatie over prikkelverwerking, validatie en meer
                 </p>
@@ -197,7 +197,7 @@ export default function Home() {
       </main>
 
       {/* Footer disclaimer */}
-      <footer className="fixed bottom-0 left-0 right-0 border-t border-gray-200 bg-white/95 px-4 py-2 dark:border-gray-800 dark:bg-gray-950/95">
+      <footer className="fixed bottom-0 left-0 right-0 border-t border-dv-gold-light/60 bg-dv-cream/95 px-4 py-2 dark:border-gray-800 dark:bg-gray-950/95">
         <p className="text-center text-xs text-gray-400 dark:text-gray-600">
           ⚕️ Dit is geen medisch hulpmiddel. Geen gegevens worden opgeslagen. Gebruik voor professionele ondersteuning.
         </p>

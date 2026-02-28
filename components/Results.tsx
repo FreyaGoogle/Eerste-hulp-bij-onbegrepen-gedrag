@@ -66,7 +66,7 @@ export default function Results({ result, routes, onReset, onStappenplan }: Prop
           Geen duidelijke verklaringsroute gevonden op basis van de ingevoerde gegevens.
           Probeer meer gedragingen te selecteren.
         </p>
-        <button onClick={onReset} className="mt-4 rounded-xl bg-blue-600 px-6 py-3 font-bold text-white">
+        <button onClick={onReset} className="mt-4 rounded-xl bg-dv-navy px-6 py-3 font-bold text-white">
           Opnieuw beginnen
         </button>
       </div>
@@ -131,7 +131,7 @@ export default function Results({ result, routes, onReset, onStappenplan }: Prop
                   onClick={() => toggleAction(key)}
                   className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 text-sm transition-all ${
                     checked
-                      ? "border-green-500 bg-green-500 text-white"
+                      ? "border-dv-navy bg-dv-navy text-white"
                       : "border-gray-300 dark:border-gray-600"
                   }`}
                 >
@@ -153,7 +153,7 @@ export default function Results({ result, routes, onReset, onStappenplan }: Prop
           {primair.zinnen.map((zin, i) => (
             <div
               key={i}
-              className="rounded-lg bg-blue-50 px-3 py-2 text-sm text-blue-800 dark:bg-blue-900/20 dark:text-blue-300"
+              className="rounded-lg bg-dv-gold-light/30 px-3 py-2 text-sm text-dv-navy dark:bg-dv-navy/20 dark:text-dv-gold"
             >
               {zin}
             </div>
@@ -197,13 +197,13 @@ export default function Results({ result, routes, onReset, onStappenplan }: Prop
       <div className="flex flex-col gap-3">
         <button
           onClick={onStappenplan}
-          className="w-full rounded-xl bg-green-600 py-3 font-bold text-white transition hover:bg-green-700"
+          className="w-full rounded-xl bg-dv-navy py-3 font-bold text-white transition hover:bg-dv-navy-dark"
         >
           📋 Bekijk volledig stappenplan
         </button>
         <button
           onClick={onReset}
-          className="w-full rounded-xl border-2 border-gray-300 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+          className="w-full rounded-xl border-2 border-dv-gold-light py-3 text-sm font-semibold text-dv-navy transition hover:bg-dv-cream dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
         >
           🔄 Nieuwe analyse starten
         </button>

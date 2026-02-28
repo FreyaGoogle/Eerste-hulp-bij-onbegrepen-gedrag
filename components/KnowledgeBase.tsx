@@ -25,7 +25,7 @@ export default function KnowledgeBase({ items, onBack }: Props) {
         return (
           <div
             key={item.id}
-            className="rounded-xl border-2 border-gray-200 dark:border-gray-700"
+            className="rounded-xl border-2 border-dv-gold-light/70 dark:border-gray-700"
           >
             <button
               onClick={() => setOpen(isOpen ? null : item.id)}
@@ -50,7 +50,7 @@ export default function KnowledgeBase({ items, onBack }: Props) {
 
       <button
         onClick={onBack}
-        className="mt-2 w-full rounded-xl border-2 border-gray-300 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+        className="mt-2 w-full rounded-xl border-2 border-dv-gold-light py-3 text-sm font-semibold text-dv-navy transition hover:bg-dv-cream dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
       >
         ← Terug naar begin
       </button>
